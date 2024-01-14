@@ -1,0 +1,47 @@
+.super-container{
+    background: #7E0102;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color:white;
+    font-family: "Lemon", serif;
+}
+.plat{
+    clip-path: circle();
+}
+.plat img{
+    width: 450px;
+    height: 400px;
+}
+.body_left{
+    height: 570px;
+    max-width: 200px;
+}
+
+.body_left img{
+    height: 600px;
+    max-width: 2500px;
+    object-fit: cover;
+}
+header{
+    font-family: 'Manrope';
+}
+p{
+    font-family: 'Italianno';
+}
+.eclipse{
+    position:absolute;
+    width: 150%;
+    z-index: -1;
+    height: 150%;
+    top: 50%;
+    left:70%;
+    transform: translate(-50%,-50%) scale(0.00001);
+    border-radius: 50%;
+}
+.section_arrow{
+    position:absolute;
+    bottom: 150px;
+    right: 20px;
+}

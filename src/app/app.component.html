@@ -1,0 +1,68 @@
+<div class="super-container z-20 h-screen w-screen relative">
+  <header class="bg-transparent">
+    <nav class="flex items-center text-xl justify-around p-5 text-white bg-transparent">
+      <div>Products</div>
+      <div>Kitchen</div>
+      <div>Amburger</div>
+      <div>
+        <img src="../assets/logo.png" alt="">
+      </div>
+      <div>Galery</div>
+      <div>About</div>
+      <div>Conctact</div>
+    </nav>
+  </header>
+  <div class="eclipse eclipse_1">
+  </div>
+  <div class="eclipse eclipse_2">
+  </div>
+  <div class="eclipse eclipse_3">
+  </div>
+  <section class="body grid grid-cols-3 grid-rows-1 z-20">
+    <div class="self-center plat overflow-hidden">
+      <img id="food_img" class="transition-800" src="../assets/pexels-anthony-leong-2092906.jpg" alt="">
+    </div>
+    <div class="body_middle px-8 self-center ml-20 z-50">
+      <h1 class="max-w-full overflow-hidden">
+        <div class="row_title max-w-full flex">
+          <div class="min-w-full">ORIGINAL</div>
+          <div class="min-w-full">HAMBURGER</div>
+          <div class="min-w-full">VIANDE</div>  
+          <div class="min-w-full">SANDUICH</div>  
+        </div>
+      </h1>
+      <p class="text-white max-w-full">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates perspiciatis illum molestias consequatur
+        ullam accusamus fugit, neque esse modi amet recusandae magnam tempore ipsa quos voluptatum ab perferendis et.
+        Totam culpa eius nostrum et cupiditate rem, quis vitae deleniti pariatur voluptatem in beatae impedit, corporis,
+        aperiam excepturi at incidunt praesentium.
+      </p>
+      <button class="p-3 mt-4 bg-slate-950 text-white rounded-lg">Commandez</button>
+    </div>
+    <div class="relative border-l ml-32 body_left overflow-clip">
+        <div class="absolute">
+          <div class="relative -left-12 flex -space-x-52 row_pringles">
+            <img src="../assets/rouge2.png" alt="">
+            <img src="../assets/maron.png" alt="">
+            <img src="../assets/vert.png" alt="">
+            <img src="../assets/jaune.png" alt="">
+          </div>
+        </div>
+    </div>
+  </section>
+  <div class="section_arrow p-8 flex items-center justify-end gap-4 pr-40 mt-4">
+    <div class="border p-4 hover:bg-slate-500 cursor-pointer rounded-full" (click)="precedent()">
+      <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="M0.646447 3.64645C0.451185 3.84171 0.451185 4.15829 0.646447 4.35355L3.82843 7.53553C4.02369 7.7308 4.34027 7.7308 4.53553 7.53553C4.7308 7.34027 4.7308 7.02369 4.53553 6.82843L1.70711 4L4.53553 1.17157C4.7308 0.976311 4.7308 0.659728 4.53553 0.464466C4.34027 0.269204 4.02369 0.269204 3.82843 0.464466L0.646447 3.64645ZM16 3.5L1 3.5V4.5L16 4.5V3.5Z"
+            fill="#F5F5F5" />
+        </svg>
+    </div>
+    <div (click)="suivant()" class="border p-4 hover:bg-slate-500 cursor-pointer rounded-full">
+      <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="M15.3536 3.64645C15.5488 3.84171 15.5488 4.15829 15.3536 4.35355L12.1716 7.53553C11.9763 7.7308 11.6597 7.7308 11.4645 7.53553C11.2692 7.34027 11.2692 7.02369 11.4645 6.82843L14.2929 4L11.4645 1.17157C11.2692 0.976311 11.2692 0.659728 11.4645 0.464466C11.6597 0.269204 11.9763 0.269204 12.1716 0.464466L15.3536 3.64645ZM0 3.5L15 3.5V4.5L0 4.5L0 3.5Z"
+            fill="#F5F5F5" />
+      </svg>
+    </div>
+  </div>
+</div>
